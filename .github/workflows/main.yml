@@ -32,4 +32,4 @@ jobs:
           context: ./frontend
           file: ./frontend/Dockerfile
           push: true
-          tags: stefid/frontend:latest
+          tags: stefid/frontend:latest, stefid/frontend:${{ github.sha }}
